@@ -1,0 +1,76 @@
+body{
+    margin: 10px;
+    padding: 5px;
+    border: 5px;
+}  
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: navy;
+    font-size: 32px;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: blue;
+    font-size: 28px;
+    padding: 18px 50px;
+    background-color: skyblue;
+    border: 1px;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: black; 
+}
+tr{
+    font-size: 20px;
+}
+tr:hover{
+    background-color: lightblue;
+    color:navy;
+}
+p{
+    background: whitesmoke;
+    font-size: 25px;   
+    transition: 0.6s ease;
+}
+p:hover{
+    background-color: white;
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 1em;
+}
+label{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+input,textarea{
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+button {
+    margin: 20px 0 0 124px;
+}
+div{
+    margin-top: 1em;
+}
